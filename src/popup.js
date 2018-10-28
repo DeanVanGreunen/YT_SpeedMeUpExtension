@@ -25,11 +25,13 @@ chrome.runtime.onMessage.addListener(
 document.getElementById('btn_updateplaybackspeed_minus').addEventListener('click', function(event) {
     var num = parseFloat(document.getElementById('text_playbackspeed').value)-1;
     document.getElementById('text_playbackspeed').value = num;
+	setPlaybackSpeed(num);
 });
 
 document.getElementById('btn_updateplaybackspeed_add').addEventListener('click', function(event) {
     var num = parseFloat(document.getElementById('text_playbackspeed').value)+1;
     document.getElementById('text_playbackspeed').value = num;
+	setPlaybackSpeed(num);
 });
 
 document.getElementById('btn_updateplaybackspeed').addEventListener('click', function(event) {
