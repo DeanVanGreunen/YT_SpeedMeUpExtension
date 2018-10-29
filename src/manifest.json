@@ -3,7 +3,8 @@
   "name": "Youtube Playback",
   "version": "1.0",
   "description": "Manage Playback Speed With Any Value",
-  "homepage_url": "https://keybase.io/DeanVanGreunen",
+  "author": "https://keybase.io/DeanVanGreunen",
+  "homepage_url": "https://github.com/DeanVanGreunen/YT_SpeedMeUpExtension",
   "repo_url": "https://github.com/DeanVanGreunen/YT_SpeedMeUpExtension",
   "permissions": [  
     "tabs",
