@@ -38,5 +38,9 @@ document.getElementById('btn_updateplaybackspeed').addEventListener('click', fun
 	setPlaybackSpeed(document.getElementById('text_playbackspeed').value);
 });
 
+document.getElementById('btn_resetplaybackspeed').addEventListener('click', function(event) {
+    document.getElementById('text_playbackspeed').value = 1;
+    setPlaybackSpeed(1);
+});
 
 getPlaybackSpeed();
