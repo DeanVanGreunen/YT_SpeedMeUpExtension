@@ -5,7 +5,6 @@
   "description": "Manage Playback Speed With Any Value",
   "author": "https://keybase.io/DeanVanGreunen",
   "homepage_url": "https://github.com/DeanVanGreunen/YT_SpeedMeUpExtension",
-  "repo_url": "https://github.com/DeanVanGreunen/YT_SpeedMeUpExtension/tree/master/src",
   "permissions": [  
     "tabs",
     "activeTab"
